@@ -454,24 +454,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ASUS\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\USER\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ASUS\\OneDrive\\Documents\\51800373-51800112-51800011-51702066\\source\\ManagerWater\\ManagerWater\\ManagerWater.csproj",
+      "projectUniqueName": "C:\\Users\\USER\\Desktop\\MTK\\Cuoi_ky\\Cuoi_Ky_up_git\\MauThietKe\\ManagerWater\\ManagerWater\\ManagerWater.csproj",
       "projectName": "ManagerWater",
-      "projectPath": "C:\\Users\\ASUS\\OneDrive\\Documents\\51800373-51800112-51800011-51702066\\source\\ManagerWater\\ManagerWater\\ManagerWater.csproj",
-      "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ASUS\\OneDrive\\Documents\\51800373-51800112-51800011-51702066\\source\\ManagerWater\\ManagerWater\\obj\\",
+      "projectPath": "C:\\Users\\USER\\Desktop\\MTK\\Cuoi_ky\\Cuoi_Ky_up_git\\MauThietKe\\ManagerWater\\ManagerWater\\ManagerWater.csproj",
+      "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\USER\\Desktop\\MTK\\Cuoi_ky\\Cuoi_Ky_up_git\\MauThietKe\\ManagerWater\\ManagerWater\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -512,12 +507,6 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.NETCore.App.Host.win-x64",
-            "version": "[3.1.23, 3.1.23]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
@@ -526,7 +515,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }

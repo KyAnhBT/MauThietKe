@@ -36,7 +36,9 @@ namespace ManagerWater
             this.slot6 = new System.Windows.Forms.Label();
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.voiSenToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.voiNuocThuongToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.bonVeSinhToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.mayNuocNongToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.lavaboToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripSeparator();
             this.removeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.slot5 = new System.Windows.Forms.Label();
@@ -154,35 +156,51 @@ namespace ManagerWater
             this.contextMenuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.contextMenuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.voiSenToolStripMenuItem,
-            this.voiNuocThuongToolStripMenuItem,
+            this.bonVeSinhToolStripMenuItem,
+            this.mayNuocNongToolStripMenuItem,
+            this.lavaboToolStripMenuItem,
             this.toolStripMenuItem1,
             this.removeToolStripMenuItem});
             this.contextMenuStrip1.Name = "contextMenuStrip1";
-            this.contextMenuStrip1.Size = new System.Drawing.Size(185, 82);
+            this.contextMenuStrip1.Size = new System.Drawing.Size(211, 158);
             // 
             // voiSenToolStripMenuItem
             // 
             this.voiSenToolStripMenuItem.Name = "voiSenToolStripMenuItem";
-            this.voiSenToolStripMenuItem.Size = new System.Drawing.Size(184, 24);
+            this.voiSenToolStripMenuItem.Size = new System.Drawing.Size(210, 24);
             this.voiSenToolStripMenuItem.Text = "VoiSen";
             this.voiSenToolStripMenuItem.Click += new System.EventHandler(this.voiSenToolStripMenuItem_Click);
             // 
-            // voiNuocThuongToolStripMenuItem
+            // bonVeSinhToolStripMenuItem
             // 
-            this.voiNuocThuongToolStripMenuItem.Name = "voiNuocThuongToolStripMenuItem";
-            this.voiNuocThuongToolStripMenuItem.Size = new System.Drawing.Size(184, 24);
-            this.voiNuocThuongToolStripMenuItem.Text = "VoiNuocThuong";
-            this.voiNuocThuongToolStripMenuItem.Click += new System.EventHandler(this.voiSenToolStripMenuItem_Click);
+            this.bonVeSinhToolStripMenuItem.Name = "bonVeSinhToolStripMenuItem";
+            this.bonVeSinhToolStripMenuItem.Size = new System.Drawing.Size(210, 24);
+            this.bonVeSinhToolStripMenuItem.Text = "BonVeSinh";
+            this.bonVeSinhToolStripMenuItem.Click += new System.EventHandler(this.voiSenToolStripMenuItem_Click);
+            // 
+            // mayNuocNongToolStripMenuItem
+            // 
+            this.mayNuocNongToolStripMenuItem.Name = "mayNuocNongToolStripMenuItem";
+            this.mayNuocNongToolStripMenuItem.Size = new System.Drawing.Size(210, 24);
+            this.mayNuocNongToolStripMenuItem.Text = "MayNuocNong";
+            this.mayNuocNongToolStripMenuItem.Click += new System.EventHandler(this.mayNuocNongToolStripMenuItem_Click);
+            // 
+            // lavaboToolStripMenuItem
+            // 
+            this.lavaboToolStripMenuItem.Name = "lavaboToolStripMenuItem";
+            this.lavaboToolStripMenuItem.Size = new System.Drawing.Size(210, 24);
+            this.lavaboToolStripMenuItem.Text = "Lavabo";
+            this.lavaboToolStripMenuItem.Click += new System.EventHandler(this.lavaboToolStripMenuItem_Click);
             // 
             // toolStripMenuItem1
             // 
             this.toolStripMenuItem1.Name = "toolStripMenuItem1";
-            this.toolStripMenuItem1.Size = new System.Drawing.Size(181, 6);
+            this.toolStripMenuItem1.Size = new System.Drawing.Size(207, 6);
             // 
             // removeToolStripMenuItem
             // 
             this.removeToolStripMenuItem.Name = "removeToolStripMenuItem";
-            this.removeToolStripMenuItem.Size = new System.Drawing.Size(184, 24);
+            this.removeToolStripMenuItem.Size = new System.Drawing.Size(210, 24);
             this.removeToolStripMenuItem.Text = "Remove";
             this.removeToolStripMenuItem.Click += new System.EventHandler(this.voiSenToolStripMenuItem_Click);
             // 
@@ -947,7 +965,7 @@ namespace ManagerWater
         private System.Windows.Forms.Label slot6;
         private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
         private System.Windows.Forms.ToolStripMenuItem voiSenToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem voiNuocThuongToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem bonVeSinhToolStripMenuItem;
         private System.Windows.Forms.ToolStripSeparator toolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem removeToolStripMenuItem;
         private System.Windows.Forms.Label slot5;
@@ -966,5 +984,7 @@ namespace ManagerWater
         private System.Windows.Forms.Button btn_convertToDollar;
         private System.Windows.Forms.Label lb_dollar;
         private System.Windows.Forms.Label label15;
+        private System.Windows.Forms.ToolStripMenuItem mayNuocNongToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem lavaboToolStripMenuItem;
     }
 }

@@ -123,7 +123,7 @@ namespace ManagerWater
             }
 
             //Chon thiet bi tren menustrip
-            commands[slot] = new ICommandFactory().createCommand(item.Text);
+            commands[slot] = new ICommandFactory().CreateCommand(item.Text);
             //Gan ten thiet bi vao slot
             label.Text = commands[slot].getName();
             //Enable cho nut on
@@ -181,6 +181,70 @@ namespace ManagerWater
             float moneyConverted = vNDTarget.change(money);
             //Làm tròn 2 chữ số Math.Round
             lb_dollar.Text = Math.Round(moneyConverted, 2) + " $";
+        }
+
+        private void mayNuocNongToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            //Lay vi tri slot
+            var item = (ToolStripItem)sender;
+            var menu = (ContextMenuStrip)item.Owner;
+            var label = (Label)menu.SourceControl;
+            var slot = int.Parse(label.Tag.ToString()) - 1;
+
+            //Bam nut Remove
+            if (item.Text == "Remove")
+            {
+                //slot la null
+                commands[slot] = null;
+                //gan null vao slot do
+                label.Text = "";
+                //thay doi backcolor control
+                label.BackColor = SystemColors.Control;
+                // Enable = fasle cho button
+                buttons_off[slot].Enabled = false;
+                buttons_on[slot].Enabled = false;
+
+                return;
+            }
+
+            //Chon thiet bi tren menustrip
+            commands[slot] = new ICommandFactory().CreateCommand(item.Text);
+            //Gan ten thiet bi vao slot
+            label.Text = commands[slot].getName();
+            //Enable cho nut on
+            buttons_on[slot].Enabled = true;
+        }
+
+        private void lavaboToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            //Lay vi tri slot
+            var item = (ToolStripItem)sender;
+            var menu = (ContextMenuStrip)item.Owner;
+            var label = (Label)menu.SourceControl;
+            var slot = int.Parse(label.Tag.ToString()) - 1;
+
+            //Bam nut Remove
+            if (item.Text == "Remove")
+            {
+                //slot la null
+                commands[slot] = null;
+                //gan null vao slot do
+                label.Text = "";
+                //thay doi backcolor control
+                label.BackColor = SystemColors.Control;
+                // Enable = fasle cho button
+                buttons_off[slot].Enabled = false;
+                buttons_on[slot].Enabled = false;
+
+                return;
+            }
+
+            //Chon thiet bi tren menustrip
+            commands[slot] = new ICommandFactory().CreateCommand(item.Text);
+            //Gan ten thiet bi vao slot
+            label.Text = commands[slot].getName();
+            //Enable cho nut on
+            buttons_on[slot].Enabled = true;
         }
     }
 }
