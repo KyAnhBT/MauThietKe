@@ -187,3 +187,31 @@ C:\Users\USER\Desktop\MTK\Cuoi_ky\Cuoi_Ky_up_git\MauThietKe\ManagerWater\Manager
 C:\Users\USER\Desktop\MTK\Cuoi_ky\Cuoi_Ky_up_git\MauThietKe\ManagerWater\ManagerWater\obj\Debug\netcoreapp3.1\ManagerWater.dll
 C:\Users\USER\Desktop\MTK\Cuoi_ky\Cuoi_Ky_up_git\MauThietKe\ManagerWater\ManagerWater\obj\Debug\netcoreapp3.1\ManagerWater.pdb
 C:\Users\USER\Desktop\MTK\Cuoi_ky\Cuoi_Ky_up_git\MauThietKe\ManagerWater\ManagerWater\obj\Debug\netcoreapp3.1\ManagerWater.genruntimeconfig.cache
+D:\YEAR3-HK2\Design Pattern\FINAL\PROJECT\MauThietKe\ManagerWater\ManagerWater\bin\Debug\netcoreapp3.1\ManagerWater.exe
+D:\YEAR3-HK2\Design Pattern\FINAL\PROJECT\MauThietKe\ManagerWater\ManagerWater\bin\Debug\netcoreapp3.1\ManagerWater.deps.json
+D:\YEAR3-HK2\Design Pattern\FINAL\PROJECT\MauThietKe\ManagerWater\ManagerWater\bin\Debug\netcoreapp3.1\ManagerWater.runtimeconfig.json
+D:\YEAR3-HK2\Design Pattern\FINAL\PROJECT\MauThietKe\ManagerWater\ManagerWater\bin\Debug\netcoreapp3.1\ManagerWater.runtimeconfig.dev.json
+D:\YEAR3-HK2\Design Pattern\FINAL\PROJECT\MauThietKe\ManagerWater\ManagerWater\bin\Debug\netcoreapp3.1\ManagerWater.dll
+D:\YEAR3-HK2\Design Pattern\FINAL\PROJECT\MauThietKe\ManagerWater\ManagerWater\bin\Debug\netcoreapp3.1\ManagerWater.pdb
+D:\YEAR3-HK2\Design Pattern\FINAL\PROJECT\MauThietKe\ManagerWater\ManagerWater\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+D:\YEAR3-HK2\Design Pattern\FINAL\PROJECT\MauThietKe\ManagerWater\ManagerWater\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+D:\YEAR3-HK2\Design Pattern\FINAL\PROJECT\MauThietKe\ManagerWater\ManagerWater\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+D:\YEAR3-HK2\Design Pattern\FINAL\PROJECT\MauThietKe\ManagerWater\ManagerWater\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+D:\YEAR3-HK2\Design Pattern\FINAL\PROJECT\MauThietKe\ManagerWater\ManagerWater\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\YEAR3-HK2\Design Pattern\FINAL\PROJECT\MauThietKe\ManagerWater\ManagerWater\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\YEAR3-HK2\Design Pattern\FINAL\PROJECT\MauThietKe\ManagerWater\ManagerWater\obj\Debug\netcoreapp3.1\ManagerWater.csproj.AssemblyReference.cache
+D:\YEAR3-HK2\Design Pattern\FINAL\PROJECT\MauThietKe\ManagerWater\ManagerWater\obj\Debug\netcoreapp3.1\ManagerWater.Customer.resources
+D:\YEAR3-HK2\Design Pattern\FINAL\PROJECT\MauThietKe\ManagerWater\ManagerWater\obj\Debug\netcoreapp3.1\ManagerWater.Login.resources
+D:\YEAR3-HK2\Design Pattern\FINAL\PROJECT\MauThietKe\ManagerWater\ManagerWater\obj\Debug\netcoreapp3.1\ManagerWater.Manager.resources
+D:\YEAR3-HK2\Design Pattern\FINAL\PROJECT\MauThietKe\ManagerWater\ManagerWater\obj\Debug\netcoreapp3.1\ManagerWater.Properties.Resources.resources
+D:\YEAR3-HK2\Design Pattern\FINAL\PROJECT\MauThietKe\ManagerWater\ManagerWater\obj\Debug\netcoreapp3.1\ManagerWater.Register.resources
+D:\YEAR3-HK2\Design Pattern\FINAL\PROJECT\MauThietKe\ManagerWater\ManagerWater\obj\Debug\netcoreapp3.1\ManagerWater.RegisterCubicMetre.resources
+D:\YEAR3-HK2\Design Pattern\FINAL\PROJECT\MauThietKe\ManagerWater\ManagerWater\obj\Debug\netcoreapp3.1\ManagerWater.csproj.GenerateResource.cache
+D:\YEAR3-HK2\Design Pattern\FINAL\PROJECT\MauThietKe\ManagerWater\ManagerWater\obj\Debug\netcoreapp3.1\ManagerWater.GeneratedMSBuildEditorConfig.editorconfig
+D:\YEAR3-HK2\Design Pattern\FINAL\PROJECT\MauThietKe\ManagerWater\ManagerWater\obj\Debug\netcoreapp3.1\ManagerWater.AssemblyInfoInputs.cache
+D:\YEAR3-HK2\Design Pattern\FINAL\PROJECT\MauThietKe\ManagerWater\ManagerWater\obj\Debug\netcoreapp3.1\ManagerWater.AssemblyInfo.cs
+D:\YEAR3-HK2\Design Pattern\FINAL\PROJECT\MauThietKe\ManagerWater\ManagerWater\obj\Debug\netcoreapp3.1\ManagerWater.csproj.CoreCompileInputs.cache
+D:\YEAR3-HK2\Design Pattern\FINAL\PROJECT\MauThietKe\ManagerWater\ManagerWater\obj\Debug\netcoreapp3.1\ManagerWater.csproj.CopyComplete
+D:\YEAR3-HK2\Design Pattern\FINAL\PROJECT\MauThietKe\ManagerWater\ManagerWater\obj\Debug\netcoreapp3.1\ManagerWater.dll
+D:\YEAR3-HK2\Design Pattern\FINAL\PROJECT\MauThietKe\ManagerWater\ManagerWater\obj\Debug\netcoreapp3.1\ManagerWater.pdb
+D:\YEAR3-HK2\Design Pattern\FINAL\PROJECT\MauThietKe\ManagerWater\ManagerWater\obj\Debug\netcoreapp3.1\ManagerWater.genruntimeconfig.cache

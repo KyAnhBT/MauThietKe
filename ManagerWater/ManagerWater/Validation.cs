@@ -33,7 +33,7 @@ namespace ManagerWater
     class FullnameValidation : ValidationStrategy
     {
         private string fullname;
-        private Regex regex = new Regex(@"^[a-zA-Z]{4,}(?: [a-zA-Z]+){0,2}$");
+        private Regex regex = new Regex(@"^[a-zA-Z]{0,4}(?: [a-zA-Z]+){0,2}$");
 
         public FullnameValidation(string fullname)
         {
@@ -50,7 +50,7 @@ namespace ManagerWater
     class KindOfCustomerValidation : ValidationStrategy
     {
         private string kind;
-        private string[] listKinds = { "Ho gia dinh", "Doanh nghiep", "Ho ngheo" };
+        private string[] listKinds = { "Ho dan cu", "San xuat", "Co quan hanh chinh", "Kinh doanh" };
 
         public KindOfCustomerValidation(string kind)
         {

@@ -7,20 +7,24 @@ namespace ManagerWater
     //Tao concreteClass cho CalcullatorTemplate
     class CalculatorFactory
     {
-        public CalculatorFactory(){ }
+        public CalculatorFactory() { }
         public static CalculatorTemplate getCalculatorTemplate(string kind, string phone)
         {
-            if (kind == "Ho gia dinh")
+            if (kind == "Ho dan cu")
             {
-                return new Calculator_Hogiadinh(phone);
+                return new Calculator_HoDanCu(phone);
             }
-            else if (kind == "Ho ngheo")
+            else if (kind == "San xuat")
             {
-                return new Calculator_Hongheo(phone);
+                return new Calculator_SanXuat(phone);
+            }
+            else if (kind == "Co quan hanh chinh")
+            {
+                return new Calculator_CoquanHanhchinh(phone);
             }
             else
             {
-                return new Calculator_Doanhnghiep(phone);
+                return new Calculator_KinhDoanh(phone);
             }
         }
     }

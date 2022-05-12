@@ -56,17 +56,21 @@ namespace ManagerWater
 
                 float costWater;
 
-                if (customer.Customer_kind == "Ho gia dinh")
+                if (customer.Customer_kind == "Ho dan cu")
                 {
-                    costWater = WaterCompany.getInstance().Water_HogiadinhCost;
+                    costWater = WaterCompany.getInstance().Water_HoDanCuCost;
                 }
-                else if (customer.Customer_kind == "Ho ngheo")
+                else if (customer.Customer_kind == "San xuat")
                 {
-                    costWater = WaterCompany.getInstance().Water_HongheoCost;
+                    costWater = WaterCompany.getInstance().Water_SanXuatCost;
+                }
+                else if (customer.Customer_kind == "Co quan hanh chinh")
+                {
+                    costWater = WaterCompany.getInstance().Water_CoquanHanhchinhCost;
                 }
                 else
                 {
-                    costWater = WaterCompany.getInstance().Water_DoanhnghiepCost;
+                    costWater = WaterCompany.getInstance().Water_KinhDoanhCost;
                 }
 
                 CubicMetre c = cubicMetre.findCubicMetre(customer.CubicMetre_ID);

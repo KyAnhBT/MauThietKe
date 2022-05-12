@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\USER\\Desktop\\MTK\\Cuoi_ky\\Cuoi_Ky_up_git\\MauThietKe\\ManagerWater\\ManagerWater\\ManagerWater.csproj": {}
+    "D:\\YEAR3-HK2\\Design Pattern\\FINAL\\PROJECT\\MauThietKe\\ManagerWater\\ManagerWater\\ManagerWater.csproj": {}
   },
   "projects": {
-    "C:\\Users\\USER\\Desktop\\MTK\\Cuoi_ky\\Cuoi_Ky_up_git\\MauThietKe\\ManagerWater\\ManagerWater\\ManagerWater.csproj": {
+    "D:\\YEAR3-HK2\\Design Pattern\\FINAL\\PROJECT\\MauThietKe\\ManagerWater\\ManagerWater\\ManagerWater.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\USER\\Desktop\\MTK\\Cuoi_ky\\Cuoi_Ky_up_git\\MauThietKe\\ManagerWater\\ManagerWater\\ManagerWater.csproj",
+        "projectUniqueName": "D:\\YEAR3-HK2\\Design Pattern\\FINAL\\PROJECT\\MauThietKe\\ManagerWater\\ManagerWater\\ManagerWater.csproj",
         "projectName": "ManagerWater",
-        "projectPath": "C:\\Users\\USER\\Desktop\\MTK\\Cuoi_ky\\Cuoi_Ky_up_git\\MauThietKe\\ManagerWater\\ManagerWater\\ManagerWater.csproj",
-        "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\USER\\Desktop\\MTK\\Cuoi_ky\\Cuoi_Ky_up_git\\MauThietKe\\ManagerWater\\ManagerWater\\obj\\",
+        "projectPath": "D:\\YEAR3-HK2\\Design Pattern\\FINAL\\PROJECT\\MauThietKe\\ManagerWater\\ManagerWater\\ManagerWater.csproj",
+        "packagesPath": "C:\\Users\\phanq\\.nuget\\packages\\",
+        "outputPath": "D:\\YEAR3-HK2\\Design Pattern\\FINAL\\PROJECT\\MauThietKe\\ManagerWater\\ManagerWater\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\phanq\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -55,6 +55,24 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.10, 3.1.10]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[3.1.24, 3.1.24]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"

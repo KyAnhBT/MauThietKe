@@ -17,9 +17,10 @@ namespace ManagerWater
         public Register()
         {
             InitializeComponent();
-            kindofcustomer.Items.Add("Ho gia dinh");
-            kindofcustomer.Items.Add("Doanh nghiep");
-            kindofcustomer.Items.Add("Ho ngheo");
+            kindofcustomer.Items.Add("Ho dan cu");
+            kindofcustomer.Items.Add("San xuat");
+            kindofcustomer.Items.Add("Co quan hanh chinh");
+            kindofcustomer.Items.Add("Kinh doanh");
             password.PasswordChar = '*';
         }
 

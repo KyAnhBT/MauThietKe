@@ -10,10 +10,9 @@ namespace ManagerWater
     //Client cua adapter pattern
     abstract class CalculatorTemplate
     {
-        //Khai bao bien
+
         public string customer_phone;
 
-        //Ham get set
         public Customers Customers { get; set; }
         protected CalculatorTemplate(string phone)
         {
@@ -28,7 +27,7 @@ namespace ManagerWater
             return customerSql.findCustomer(customer_phone);
         }
 
-        //Lay so ký điện mà khách đã sử dung
+        //Lay so met khoi da su dung
         protected float getCounter()
         {
             CubicMetreSql cubicMetreSql = new CubicMetreSql();
@@ -40,10 +39,9 @@ namespace ManagerWater
             return counter;
         }
 
-        //Ham abstract
         protected abstract float Calculator(float counter);
 
-        //Ham thuc hien tinh tien
+        //Ham tinh tien nuoc
         public float Pay()
         {
             this.Customers = getCustomer();

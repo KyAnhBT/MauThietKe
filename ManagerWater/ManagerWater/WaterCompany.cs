@@ -12,9 +12,12 @@ namespace ManagerWater
         public string Company_phone;
 
         // Giá nước
-        public float Water_HogiadinhCost = 5.973f;
-        public float Water_HongheoCost = 3.6f;
-        public float Water_DoanhnghiepCost = 9.955f;
+        public float Water_HoDanCuCost = 6.700f;
+        public float Water_SanXuatCost = 12.100f;
+        public float Water_CoquanHanhchinhCost = 13.000f;
+        public float Water_KinhDoanhCost = 21.300f;
+
+
 
         //Ham get set
         public string company_name { get; set; }
