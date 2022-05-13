@@ -7,11 +7,11 @@ namespace ManagerWater
     public class WaterCompany
     {
         //Thông tin công ty nước
-        public string Company_name;
-        public string Company_address;
-        public string Company_phone;
+        public string Company_name="Công ty nước sạch thành phố";
+        public string Company_address="515 Lê Văn Lương, Tân Phong, Quận 7, HCM";
+        public string Company_phone="0583941958";
 
-        // Giá nước
+        // Giá nước theo từng kiểu khách hàng
         public float Water_HoDanCuCost = 6.700f;
         public float Water_SanXuatCost = 12.100f;
         public float Water_CoquanHanhchinhCost = 13.000f;
