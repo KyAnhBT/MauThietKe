@@ -33,7 +33,7 @@ namespace ManagerWater
     class FullnameValidation : ValidationStrategy
     {
         private string fullname;
-        private Regex r = new Regex(@"^[a-zA-Z]{0,4}(?: [a-zA-Z]+){0,2}$");
+        private Regex r = new Regex(@"^[a-zA-Z]{2,}(?: [a-zA-Z]+){0,2}$");
 
         public FullnameValidation(string fullname)
         {
@@ -84,7 +84,7 @@ namespace ManagerWater
 
         public bool validate()
         {
-            if(passpass.Length < 8)
+            if(pass.Length < 8)
             {
                 return false;
             }
@@ -108,7 +108,7 @@ namespace ManagerWater
         }
         public bool validate()
         {
-            int index = Array.IndexOf(, kind);
+            int index = Array.IndexOf(lK, kind);
 
             if (index > -1)
             {
