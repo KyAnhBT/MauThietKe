@@ -16,7 +16,7 @@ namespace ManagerWater
     class PhoneValidation: ValidationStrategy
     {
         private string phone;
-        private Regex regex = new Regex(@"^0\d{9,10}$");
+        private Regex r = new Regex(@"^0\d{9,10}$");
 
         public PhoneValidation(string phone)
         {
@@ -25,7 +25,7 @@ namespace ManagerWater
 
         public bool validate()
         {
-            return regex.IsMatch(phone);
+            return r.IsMatch(phone);
         }
     }
 
@@ -33,7 +33,7 @@ namespace ManagerWater
     class FullnameValidation : ValidationStrategy
     {
         private string fullname;
-        private Regex regex = new Regex(@"^[a-zA-Z]{0,4}(?: [a-zA-Z]+){0,2}$");
+        private Regex r = new Regex(@"^[a-zA-Z]{0,4}(?: [a-zA-Z]+){0,2}$");
 
         public FullnameValidation(string fullname)
         {
@@ -42,7 +42,7 @@ namespace ManagerWater
 
         public bool validate()
         {
-            return regex.IsMatch(fullname);
+            return r.IsMatch(fullname);
         }
     }
 
@@ -50,7 +50,7 @@ namespace ManagerWater
     class KindOfCustomerValidation : ValidationStrategy
     {
         private string kind;
-        private string[] listKinds = { "Ho dan cu", "San xuat", "Co quan hanh chinh", "Kinh doanh" };
+        private string[] lK = { "Ho dan cu", "San xuat", "Co quan hanh chinh", "Kinh doanh" };
 
         public KindOfCustomerValidation(string kind)
         {
@@ -59,7 +59,7 @@ namespace ManagerWater
 
         public bool validate()
         {
-            int index = Array.IndexOf(listKinds, kind);
+            int index = Array.IndexOf(lK, kind);
 
             if (index > -1)
             {
@@ -75,16 +75,16 @@ namespace ManagerWater
     //Class ConceteStrategy
     class PasswordValidation : ValidationStrategy
     {
-        private string pw;
+        private string pass;
 
         public PasswordValidation(string pw)
         {
-            this.pw = pw;
+            this.pass = pw;
         }
 
         public bool validate()
         {
-            if(pw.Length < 8)
+            if(passpass.Length < 8)
             {
                 return false;
             }
@@ -100,7 +100,7 @@ namespace ManagerWater
     {
         private string kind;
 
-        private string[] listKinds = { "Vnd", "Dollar" };
+        private string[] lK = { "Vnd", "Dollar" };
 
         public KindOfUnitValidation(string kind)
         {
@@ -108,7 +108,7 @@ namespace ManagerWater
         }
         public bool validate()
         {
-            int index = Array.IndexOf(listKinds, kind);
+            int index = Array.IndexOf(, kind);
 
             if (index > -1)
             {
