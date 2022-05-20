@@ -6,7 +6,7 @@ using System.Windows.Forms;
 
 namespace ManagerWater
 {
-    //Ap observer pattern
+    //Ap dung observer pattern
     //subject class
     public interface Subject
     {
@@ -15,7 +15,7 @@ namespace ManagerWater
         void notifyAllObserver();
     }
 
-    //Ap obervser pattern
+    //Ap dung obervser pattern
     //Observer class
     public abstract class Observer
     {
@@ -29,7 +29,7 @@ namespace ManagerWater
         public abstract void update(string untit, float costPay, float costUsed, float costWater);
     }
 
-    //Ap observer pattern
+    //Ap dung observer pattern
     //ConcreteSubject
     public class WaterCompanyObserver : Subject
     {
@@ -94,8 +94,9 @@ namespace ManagerWater
         }
     }
 
-    //Ap observer pattern
+    //Ap dung observer pattern
     //ConcreteObserver
+    //Hien thi chi tiet tien nuoc
     public class CostDisplay : Observer
     {
         public Subject subject1;
