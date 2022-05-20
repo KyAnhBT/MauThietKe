@@ -98,6 +98,7 @@ namespace ManagerWater
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.btn_convertToEuro = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel6.SuspendLayout();
             this.contextMenuStrip1.SuspendLayout();
@@ -162,45 +163,45 @@ namespace ManagerWater
             this.toolStripMenuItem1,
             this.removeToolStripMenuItem});
             this.contextMenuStrip1.Name = "contextMenuStrip1";
-            this.contextMenuStrip1.Size = new System.Drawing.Size(211, 158);
+            this.contextMenuStrip1.Size = new System.Drawing.Size(179, 130);
             // 
             // voiSenToolStripMenuItem
             // 
             this.voiSenToolStripMenuItem.Name = "voiSenToolStripMenuItem";
-            this.voiSenToolStripMenuItem.Size = new System.Drawing.Size(210, 24);
+            this.voiSenToolStripMenuItem.Size = new System.Drawing.Size(178, 24);
             this.voiSenToolStripMenuItem.Text = "VoiSen";
             this.voiSenToolStripMenuItem.Click += new System.EventHandler(this.voiSenToolStripMenuItem_Click);
             // 
             // bonVeSinhToolStripMenuItem
             // 
             this.bonVeSinhToolStripMenuItem.Name = "bonVeSinhToolStripMenuItem";
-            this.bonVeSinhToolStripMenuItem.Size = new System.Drawing.Size(210, 24);
+            this.bonVeSinhToolStripMenuItem.Size = new System.Drawing.Size(178, 24);
             this.bonVeSinhToolStripMenuItem.Text = "BonVeSinh";
             this.bonVeSinhToolStripMenuItem.Click += new System.EventHandler(this.voiSenToolStripMenuItem_Click);
             // 
             // mayNuocNongToolStripMenuItem
             // 
             this.mayNuocNongToolStripMenuItem.Name = "mayNuocNongToolStripMenuItem";
-            this.mayNuocNongToolStripMenuItem.Size = new System.Drawing.Size(210, 24);
+            this.mayNuocNongToolStripMenuItem.Size = new System.Drawing.Size(178, 24);
             this.mayNuocNongToolStripMenuItem.Text = "MayNuocNong";
             this.mayNuocNongToolStripMenuItem.Click += new System.EventHandler(this.mayNuocNongToolStripMenuItem_Click);
             // 
             // lavaboToolStripMenuItem
             // 
             this.lavaboToolStripMenuItem.Name = "lavaboToolStripMenuItem";
-            this.lavaboToolStripMenuItem.Size = new System.Drawing.Size(210, 24);
+            this.lavaboToolStripMenuItem.Size = new System.Drawing.Size(178, 24);
             this.lavaboToolStripMenuItem.Text = "Lavabo";
             this.lavaboToolStripMenuItem.Click += new System.EventHandler(this.lavaboToolStripMenuItem_Click);
             // 
             // toolStripMenuItem1
             // 
             this.toolStripMenuItem1.Name = "toolStripMenuItem1";
-            this.toolStripMenuItem1.Size = new System.Drawing.Size(207, 6);
+            this.toolStripMenuItem1.Size = new System.Drawing.Size(175, 6);
             // 
             // removeToolStripMenuItem
             // 
             this.removeToolStripMenuItem.Name = "removeToolStripMenuItem";
-            this.removeToolStripMenuItem.Size = new System.Drawing.Size(210, 24);
+            this.removeToolStripMenuItem.Size = new System.Drawing.Size(178, 24);
             this.removeToolStripMenuItem.Text = "Remove";
             this.removeToolStripMenuItem.Click += new System.EventHandler(this.voiSenToolStripMenuItem_Click);
             // 
@@ -542,6 +543,7 @@ namespace ManagerWater
             // 
             // panel4
             // 
+            this.panel4.Controls.Add(this.btn_convertToEuro);
             this.panel4.Controls.Add(this.label15);
             this.panel4.Controls.Add(this.lb_dollar);
             this.panel4.Controls.Add(this.btn_convertToDollar);
@@ -594,9 +596,9 @@ namespace ManagerWater
             this.btn_convertToDollar.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.btn_convertToDollar.Location = new System.Drawing.Point(384, 215);
             this.btn_convertToDollar.Name = "btn_convertToDollar";
-            this.btn_convertToDollar.Size = new System.Drawing.Size(152, 29);
+            this.btn_convertToDollar.Size = new System.Drawing.Size(80, 29);
             this.btn_convertToDollar.TabIndex = 13;
-            this.btn_convertToDollar.Text = "Đổi sang Dollar";
+            this.btn_convertToDollar.Text = "Dollar";
             this.btn_convertToDollar.UseVisualStyleBackColor = false;
             this.btn_convertToDollar.Click += new System.EventHandler(this.btn_convertToDollar_Click);
             // 
@@ -887,6 +889,19 @@ namespace ManagerWater
             this.label1.TabIndex = 0;
             this.label1.Text = "THÔNG TIN KHÁCH HÀNG";
             // 
+            // btn_convertToEuro
+            // 
+            this.btn_convertToEuro.BackColor = System.Drawing.Color.SteelBlue;
+            this.btn_convertToEuro.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btn_convertToEuro.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btn_convertToEuro.Location = new System.Drawing.Point(464, 215);
+            this.btn_convertToEuro.Name = "btn_convertToEuro";
+            this.btn_convertToEuro.Size = new System.Drawing.Size(80, 29);
+            this.btn_convertToEuro.TabIndex = 13;
+            this.btn_convertToEuro.Text = "Euro";
+            this.btn_convertToEuro.UseVisualStyleBackColor = false;
+            this.btn_convertToEuro.Click += new System.EventHandler(this.btn_convertToEuro_Click);
+            // 
             // Customer
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
@@ -986,5 +1001,6 @@ namespace ManagerWater
         private System.Windows.Forms.Label label15;
         private System.Windows.Forms.ToolStripMenuItem mayNuocNongToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem lavaboToolStripMenuItem;
+        private System.Windows.Forms.Button btn_convertToEuro;
     }
 }

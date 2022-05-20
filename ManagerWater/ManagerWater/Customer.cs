@@ -177,7 +177,7 @@ namespace ManagerWater
             float money = float.Parse(lb_Pay.Text.ToString());
 
             //chuyen vnd sang dollar
-            VNDTarget vNDTarget = new ConvertAdapter(new DollarAdaptee());
+            VNDTarget vNDTarget = new Adapter_VNDToDollar(new DollarAdaptee());
             float moneyConverted = vNDTarget.change(money);
             //Làm tròn 2 chữ số Math.Round
             lb_dollar.Text = Math.Round(moneyConverted, 2) + " $";
@@ -245,6 +245,17 @@ namespace ManagerWater
             label.Text = commands[slot].getName();
             //Enable cho nut on
             buttons_on[slot].Enabled = true;
+        }
+
+        private void btn_convertToEuro_Click(object sender, EventArgs e)
+        {
+            float money = float.Parse(lb_Pay.Text.ToString());
+
+            //chuyen vnd sang euro
+            VNDTarget vNDTarget = new Adapter_VNDToEuro(new EuroAdaptee());
+            float moneyConverted = vNDTarget.change(money);
+            //Làm tròn 2 chữ số Math.Round
+            lb_dollar.Text = Math.Round(moneyConverted, 2) + " EUR ";
         }
     }
 }
