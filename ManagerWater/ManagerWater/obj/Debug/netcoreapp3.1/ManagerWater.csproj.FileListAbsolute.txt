@@ -215,3 +215,31 @@ D:\YEAR3-HK2\Design Pattern\FINAL\PROJECT\MauThietKe\ManagerWater\ManagerWater\o
 D:\YEAR3-HK2\Design Pattern\FINAL\PROJECT\MauThietKe\ManagerWater\ManagerWater\obj\Debug\netcoreapp3.1\ManagerWater.dll
 D:\YEAR3-HK2\Design Pattern\FINAL\PROJECT\MauThietKe\ManagerWater\ManagerWater\obj\Debug\netcoreapp3.1\ManagerWater.pdb
 D:\YEAR3-HK2\Design Pattern\FINAL\PROJECT\MauThietKe\ManagerWater\ManagerWater\obj\Debug\netcoreapp3.1\ManagerWater.genruntimeconfig.cache
+C:\Users\ASUS\OneDrive\Documents\CKMTK\MauThietKe\ManagerWater\ManagerWater\bin\Debug\netcoreapp3.1\ManagerWater.exe
+C:\Users\ASUS\OneDrive\Documents\CKMTK\MauThietKe\ManagerWater\ManagerWater\bin\Debug\netcoreapp3.1\ManagerWater.deps.json
+C:\Users\ASUS\OneDrive\Documents\CKMTK\MauThietKe\ManagerWater\ManagerWater\bin\Debug\netcoreapp3.1\ManagerWater.runtimeconfig.json
+C:\Users\ASUS\OneDrive\Documents\CKMTK\MauThietKe\ManagerWater\ManagerWater\bin\Debug\netcoreapp3.1\ManagerWater.runtimeconfig.dev.json
+C:\Users\ASUS\OneDrive\Documents\CKMTK\MauThietKe\ManagerWater\ManagerWater\bin\Debug\netcoreapp3.1\ManagerWater.dll
+C:\Users\ASUS\OneDrive\Documents\CKMTK\MauThietKe\ManagerWater\ManagerWater\bin\Debug\netcoreapp3.1\ManagerWater.pdb
+C:\Users\ASUS\OneDrive\Documents\CKMTK\MauThietKe\ManagerWater\ManagerWater\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+C:\Users\ASUS\OneDrive\Documents\CKMTK\MauThietKe\ManagerWater\ManagerWater\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\ASUS\OneDrive\Documents\CKMTK\MauThietKe\ManagerWater\ManagerWater\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\ASUS\OneDrive\Documents\CKMTK\MauThietKe\ManagerWater\ManagerWater\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\ASUS\OneDrive\Documents\CKMTK\MauThietKe\ManagerWater\ManagerWater\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\ASUS\OneDrive\Documents\CKMTK\MauThietKe\ManagerWater\ManagerWater\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\ASUS\OneDrive\Documents\CKMTK\MauThietKe\ManagerWater\ManagerWater\obj\Debug\netcoreapp3.1\ManagerWater.csproj.AssemblyReference.cache
+C:\Users\ASUS\OneDrive\Documents\CKMTK\MauThietKe\ManagerWater\ManagerWater\obj\Debug\netcoreapp3.1\ManagerWater.Customer.resources
+C:\Users\ASUS\OneDrive\Documents\CKMTK\MauThietKe\ManagerWater\ManagerWater\obj\Debug\netcoreapp3.1\ManagerWater.Login.resources
+C:\Users\ASUS\OneDrive\Documents\CKMTK\MauThietKe\ManagerWater\ManagerWater\obj\Debug\netcoreapp3.1\ManagerWater.Manager.resources
+C:\Users\ASUS\OneDrive\Documents\CKMTK\MauThietKe\ManagerWater\ManagerWater\obj\Debug\netcoreapp3.1\ManagerWater.Properties.Resources.resources
+C:\Users\ASUS\OneDrive\Documents\CKMTK\MauThietKe\ManagerWater\ManagerWater\obj\Debug\netcoreapp3.1\ManagerWater.Register.resources
+C:\Users\ASUS\OneDrive\Documents\CKMTK\MauThietKe\ManagerWater\ManagerWater\obj\Debug\netcoreapp3.1\ManagerWater.RegisterCubicMetre.resources
+C:\Users\ASUS\OneDrive\Documents\CKMTK\MauThietKe\ManagerWater\ManagerWater\obj\Debug\netcoreapp3.1\ManagerWater.csproj.GenerateResource.cache
+C:\Users\ASUS\OneDrive\Documents\CKMTK\MauThietKe\ManagerWater\ManagerWater\obj\Debug\netcoreapp3.1\ManagerWater.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ASUS\OneDrive\Documents\CKMTK\MauThietKe\ManagerWater\ManagerWater\obj\Debug\netcoreapp3.1\ManagerWater.AssemblyInfoInputs.cache
+C:\Users\ASUS\OneDrive\Documents\CKMTK\MauThietKe\ManagerWater\ManagerWater\obj\Debug\netcoreapp3.1\ManagerWater.AssemblyInfo.cs
+C:\Users\ASUS\OneDrive\Documents\CKMTK\MauThietKe\ManagerWater\ManagerWater\obj\Debug\netcoreapp3.1\ManagerWater.csproj.CoreCompileInputs.cache
+C:\Users\ASUS\OneDrive\Documents\CKMTK\MauThietKe\ManagerWater\ManagerWater\obj\Debug\netcoreapp3.1\ManagerWater.csproj.CopyComplete
+C:\Users\ASUS\OneDrive\Documents\CKMTK\MauThietKe\ManagerWater\ManagerWater\obj\Debug\netcoreapp3.1\ManagerWater.dll
+C:\Users\ASUS\OneDrive\Documents\CKMTK\MauThietKe\ManagerWater\ManagerWater\obj\Debug\netcoreapp3.1\ManagerWater.pdb
+C:\Users\ASUS\OneDrive\Documents\CKMTK\MauThietKe\ManagerWater\ManagerWater\obj\Debug\netcoreapp3.1\ManagerWater.genruntimeconfig.cache

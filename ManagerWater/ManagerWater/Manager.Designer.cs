@@ -44,6 +44,14 @@ namespace ManagerWater
             this.btn_findName = new System.Windows.Forms.Button();
             this.btn_Pay = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.label4 = new System.Windows.Forms.Label();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.comboBox2 = new System.Windows.Forms.ComboBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.label7 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.CustomerGridView)).BeginInit();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -67,7 +75,7 @@ namespace ManagerWater
             this.CustomerGridView.Name = "CustomerGridView";
             this.CustomerGridView.RowHeadersWidth = 51;
             this.CustomerGridView.RowTemplate.Height = 29;
-            this.CustomerGridView.Size = new System.Drawing.Size(1187, 369);
+            this.CustomerGridView.Size = new System.Drawing.Size(1187, 291);
             this.CustomerGridView.TabIndex = 1;
             this.CustomerGridView.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.CustomerGridView_CellContentClick);
             // 
@@ -200,12 +208,109 @@ namespace ManagerWater
             this.panel1.Size = new System.Drawing.Size(100, 100);
             this.panel1.TabIndex = 11;
             // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label4.ForeColor = System.Drawing.Color.SteelBlue;
+            this.label4.Location = new System.Drawing.Point(41, 538);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(127, 20);
+            this.label4.TabIndex = 12;
+            this.label4.Text = "Nhập doanh thu:";
+            // 
+            // comboBox1
+            // 
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Items.AddRange(new object[] {
+            "Nội thành",
+            "Ngoại thành"});
+            this.comboBox1.Location = new System.Drawing.Point(420, 532);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(151, 28);
+            this.comboBox1.TabIndex = 13;
+            this.comboBox1.Tag = "";
+            // 
+            // comboBox2
+            // 
+            this.comboBox2.FormattingEnabled = true;
+            this.comboBox2.Items.AddRange(new object[] {
+            "3 tháng",
+            "6 tháng",
+            "12 tháng"});
+            this.comboBox2.Location = new System.Drawing.Point(612, 532);
+            this.comboBox2.Name = "comboBox2";
+            this.comboBox2.Size = new System.Drawing.Size(151, 28);
+            this.comboBox2.TabIndex = 14;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label5.ForeColor = System.Drawing.Color.SteelBlue;
+            this.label5.Location = new System.Drawing.Point(420, 507);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(143, 20);
+            this.label5.TabIndex = 15;
+            this.label5.Text = "Địa điểm chi nhánh";
+            this.label5.Click += new System.EventHandler(this.label5_Click);
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label6.ForeColor = System.Drawing.Color.SteelBlue;
+            this.label6.Location = new System.Drawing.Point(612, 507);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(150, 20);
+            this.label6.TabIndex = 16;
+            this.label6.Text = "Thời gian đóng thuế";
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.SteelBlue;
+            this.button1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.button1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.button1.Location = new System.Drawing.Point(866, 526);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(94, 29);
+            this.button1.TabIndex = 17;
+            this.button1.Text = "Tính Thuế";
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(174, 532);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(125, 27);
+            this.textBox1.TabIndex = 18;
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label7.ForeColor = System.Drawing.Color.SteelBlue;
+            this.label7.Location = new System.Drawing.Point(305, 538);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(42, 20);
+            this.label7.TabIndex = 19;
+            this.label7.Text = "VND";
+            // 
             // Manager
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.ClientSize = new System.Drawing.Size(1263, 589);
+            this.Controls.Add(this.label7);
+            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.label6);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.comboBox2);
+            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.label4);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.btn_Pay);
             this.Controls.Add(this.btn_findName);
@@ -246,5 +351,13 @@ namespace ManagerWater
         private System.Windows.Forms.Button btn_findName;
         private System.Windows.Forms.Button btn_Pay;
         private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox comboBox2;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Label label7;
     }
 }

@@ -33,7 +33,7 @@ namespace ManagerWater
     class FullnameValidation : ValidationStrategy
     {
         private string fullname;
-        private Regex r = new Regex(@"^[a-zA-Z]{2,}(?: [a-zA-Z]+){0,2}$");
+        private Regex r = new Regex(@"^[a-zA-Z]{1,7}(?: [a-zA-Z]+){0,7}$");
 
         public FullnameValidation(string fullname)
         {

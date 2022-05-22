@@ -118,5 +118,53 @@ namespace ManagerWater
         {
             waterCompanyObserver.notifyAllObserver();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            if (textBox1.Text != "")
+            {
+
+                DiaDiem NoiThanh = new NoiThanh();
+                DiaDiem NgoaiThanh = new NgoaiThanh();
+                ThoiGian Three = new Three();
+                ThoiGian Six = new Six();
+                ThoiGian Twelve = new Twelve();
+
+
+                double i;
+
+                i = double.Parse(textBox1.Text);
+
+                if (comboBox1.SelectedItem.ToString() == "Nội thành" && comboBox2.SelectedItem.ToString() == "3 tháng")
+                {
+                    MessageBox.Show("Thuế cần trả là: " + (i * NoiThanh.thue(Three)) + "VND");
+                }
+                if (comboBox1.SelectedItem.ToString() == "Ngoại thành" && comboBox2.SelectedItem.ToString() == "3 tháng")
+                {
+                    MessageBox.Show("Thuế cần trả là: " + (i * NgoaiThanh.thue(Three)) + "VND");
+                }
+                if (comboBox1.SelectedItem.ToString() == "Ngoại thành" && comboBox2.SelectedItem.ToString() == "6 tháng")
+                {
+                    MessageBox.Show("Thuế cần trả là: " + (i * NgoaiThanh.thue(Six)) + "VND");
+                }
+                if (comboBox1.SelectedItem.ToString() == "Nội thành" && comboBox2.SelectedItem.ToString() == "6 tháng")
+                {
+                    MessageBox.Show("Thuế cần trả là: " + (i * NoiThanh.thue(Six)) + "VND");
+                }
+                if (comboBox1.SelectedItem.ToString() == "Ngoại thành" && comboBox2.SelectedItem.ToString() == "12 tháng")
+                {
+                    MessageBox.Show("Thuế cần trả là: " + (i * NgoaiThanh.thue(Twelve)) + "VND");
+                }
+                if (comboBox1.SelectedItem.ToString() == "Nội thành" && comboBox2.SelectedItem.ToString() == "12 tháng")
+                {
+                    MessageBox.Show("Thuế cần trả là: " + (i * NoiThanh.thue(Twelve)) + "VND");
+                }
+            }
+        }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

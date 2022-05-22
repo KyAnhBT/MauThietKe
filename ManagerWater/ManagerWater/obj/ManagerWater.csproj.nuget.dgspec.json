@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "D:\\YEAR3-HK2\\Design Pattern\\FINAL\\PROJECT\\MauThietKe\\ManagerWater\\ManagerWater\\ManagerWater.csproj": {}
+    "C:\\Users\\ASUS\\OneDrive\\Documents\\CKMTK\\MauThietKe\\ManagerWater\\ManagerWater\\ManagerWater.csproj": {}
   },
   "projects": {
-    "D:\\YEAR3-HK2\\Design Pattern\\FINAL\\PROJECT\\MauThietKe\\ManagerWater\\ManagerWater\\ManagerWater.csproj": {
+    "C:\\Users\\ASUS\\OneDrive\\Documents\\CKMTK\\MauThietKe\\ManagerWater\\ManagerWater\\ManagerWater.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\YEAR3-HK2\\Design Pattern\\FINAL\\PROJECT\\MauThietKe\\ManagerWater\\ManagerWater\\ManagerWater.csproj",
+        "projectUniqueName": "C:\\Users\\ASUS\\OneDrive\\Documents\\CKMTK\\MauThietKe\\ManagerWater\\ManagerWater\\ManagerWater.csproj",
         "projectName": "ManagerWater",
-        "projectPath": "D:\\YEAR3-HK2\\Design Pattern\\FINAL\\PROJECT\\MauThietKe\\ManagerWater\\ManagerWater\\ManagerWater.csproj",
-        "packagesPath": "C:\\Users\\phanq\\.nuget\\packages\\",
-        "outputPath": "D:\\YEAR3-HK2\\Design Pattern\\FINAL\\PROJECT\\MauThietKe\\ManagerWater\\ManagerWater\\obj\\",
+        "projectPath": "C:\\Users\\ASUS\\OneDrive\\Documents\\CKMTK\\MauThietKe\\ManagerWater\\ManagerWater\\ManagerWater.csproj",
+        "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ASUS\\OneDrive\\Documents\\CKMTK\\MauThietKe\\ManagerWater\\ManagerWater\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\phanq\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -57,20 +61,8 @@
           "warn": true,
           "downloadDependencies": [
             {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[3.1.10, 3.1.10]"
-            },
-            {
               "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[3.1.24, 3.1.24]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[3.1.0, 3.1.0]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[3.1.0, 3.1.0]"
+              "version": "[3.1.23, 3.1.23]"
             }
           ],
           "frameworkReferences": {
@@ -81,7 +73,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }
