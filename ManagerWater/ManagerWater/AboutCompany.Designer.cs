@@ -57,7 +57,7 @@
             this.txtCompany.AutoSize = true;
             this.txtCompany.Font = new System.Drawing.Font("Times New Roman", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.txtCompany.ForeColor = System.Drawing.Color.Navy;
-            this.txtCompany.Location = new System.Drawing.Point(12, 51);
+            this.txtCompany.Location = new System.Drawing.Point(12, 72);
             this.txtCompany.Name = "txtCompany";
             this.txtCompany.Size = new System.Drawing.Size(188, 37);
             this.txtCompany.TabIndex = 10;
@@ -66,88 +66,88 @@
             // txt_address
             // 
             this.txt_address.AutoSize = true;
-            this.txt_address.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txt_address.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.txt_address.ForeColor = System.Drawing.Color.Navy;
-            this.txt_address.Location = new System.Drawing.Point(243, 156);
+            this.txt_address.Location = new System.Drawing.Point(243, 190);
             this.txt_address.Name = "txt_address";
-            this.txt_address.Size = new System.Drawing.Size(76, 22);
+            this.txt_address.Size = new System.Drawing.Size(78, 23);
             this.txt_address.TabIndex = 11;
             this.txt_address.Text = "Address";
             // 
             // txt_phone
             // 
             this.txt_phone.AutoSize = true;
-            this.txt_phone.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txt_phone.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.txt_phone.ForeColor = System.Drawing.Color.Navy;
-            this.txt_phone.Location = new System.Drawing.Point(243, 188);
+            this.txt_phone.Location = new System.Drawing.Point(243, 232);
             this.txt_phone.Name = "txt_phone";
-            this.txt_phone.Size = new System.Drawing.Size(58, 22);
+            this.txt_phone.Size = new System.Drawing.Size(62, 23);
             this.txt_phone.TabIndex = 12;
             this.txt_phone.Text = "Phone";
             // 
             // txt_leader
             // 
             this.txt_leader.AutoSize = true;
-            this.txt_leader.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txt_leader.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.txt_leader.ForeColor = System.Drawing.Color.Navy;
-            this.txt_leader.Location = new System.Drawing.Point(243, 225);
+            this.txt_leader.Location = new System.Drawing.Point(243, 269);
             this.txt_leader.Name = "txt_leader";
-            this.txt_leader.Size = new System.Drawing.Size(65, 22);
+            this.txt_leader.Size = new System.Drawing.Size(71, 23);
             this.txt_leader.TabIndex = 13;
             this.txt_leader.Text = "Leader";
             // 
             // txt_fax
             // 
             this.txt_fax.AutoSize = true;
-            this.txt_fax.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.txt_fax.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.txt_fax.ForeColor = System.Drawing.Color.Navy;
-            this.txt_fax.Location = new System.Drawing.Point(243, 261);
+            this.txt_fax.Location = new System.Drawing.Point(243, 305);
             this.txt_fax.Name = "txt_fax";
-            this.txt_fax.Size = new System.Drawing.Size(39, 22);
+            this.txt_fax.Size = new System.Drawing.Size(41, 23);
             this.txt_fax.TabIndex = 14;
             this.txt_fax.Text = "Fax";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label1.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label1.ForeColor = System.Drawing.Color.Navy;
-            this.label1.Location = new System.Drawing.Point(12, 155);
+            this.label1.Location = new System.Drawing.Point(126, 190);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(75, 23);
+            this.label1.Size = new System.Drawing.Size(74, 22);
             this.label1.TabIndex = 15;
             this.label1.Text = "Địa chỉ:";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label2.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label2.ForeColor = System.Drawing.Color.Navy;
-            this.label2.Location = new System.Drawing.Point(12, 188);
+            this.label2.Location = new System.Drawing.Point(79, 233);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(125, 23);
+            this.label2.Size = new System.Drawing.Size(120, 22);
             this.label2.TabIndex = 16;
             this.label2.Text = "Số điện thoại:";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label3.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label3.ForeColor = System.Drawing.Color.Navy;
-            this.label3.Location = new System.Drawing.Point(12, 224);
+            this.label3.Location = new System.Drawing.Point(119, 270);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(87, 23);
+            this.label3.Size = new System.Drawing.Size(81, 22);
             this.label3.TabIndex = 17;
             this.label3.Text = "Chủ tịch:";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.label4.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label4.ForeColor = System.Drawing.Color.Navy;
-            this.label4.Location = new System.Drawing.Point(12, 260);
+            this.label4.Location = new System.Drawing.Point(154, 306);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(48, 23);
+            this.label4.Size = new System.Drawing.Size(45, 22);
             this.label4.TabIndex = 18;
             this.label4.Text = "Fax:";
             // 

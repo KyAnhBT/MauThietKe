@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\dangn\\Downloads\\Nháp\\MauThietKe\\ManagerWater\\ManagerWater\\ManagerWater.csproj": {}
+    "C:\\Users\\dangn\\Downloads\\Demo\\MauThietKe\\ManagerWater\\ManagerWater\\ManagerWater.csproj": {}
   },
   "projects": {
-    "C:\\Users\\dangn\\Downloads\\Nháp\\MauThietKe\\ManagerWater\\ManagerWater\\ManagerWater.csproj": {
+    "C:\\Users\\dangn\\Downloads\\Demo\\MauThietKe\\ManagerWater\\ManagerWater\\ManagerWater.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dangn\\Downloads\\Nháp\\MauThietKe\\ManagerWater\\ManagerWater\\ManagerWater.csproj",
+        "projectUniqueName": "C:\\Users\\dangn\\Downloads\\Demo\\MauThietKe\\ManagerWater\\ManagerWater\\ManagerWater.csproj",
         "projectName": "ManagerWater",
-        "projectPath": "C:\\Users\\dangn\\Downloads\\Nháp\\MauThietKe\\ManagerWater\\ManagerWater\\ManagerWater.csproj",
+        "projectPath": "C:\\Users\\dangn\\Downloads\\Demo\\MauThietKe\\ManagerWater\\ManagerWater\\ManagerWater.csproj",
         "packagesPath": "C:\\Users\\dangn\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dangn\\Downloads\\Nháp\\MauThietKe\\ManagerWater\\ManagerWater\\obj\\",
+        "outputPath": "C:\\Users\\dangn\\Downloads\\Demo\\MauThietKe\\ManagerWater\\ManagerWater\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

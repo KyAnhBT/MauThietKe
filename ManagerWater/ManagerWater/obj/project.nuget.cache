@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "CIc6tpwaA0shUMU2LKVMLqnXLgSOxXJbCSfI8//BBDDXGewR9mZRJdx/SV+FOqh1U4rWdCXiD5WRK9AW2XyXOg==",
+  "dgSpecHash": "Fu4dQiaxL+yDX9L3vuMlXJ7ezFfVVqldIv3D6UTh1yREf6HABCL7mspFuIvyUYwaBQC9Ge0g5UnrFYbJ8VVtyw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\dangn\\Downloads\\Nháp\\MauThietKe\\ManagerWater\\ManagerWater\\ManagerWater.csproj",
+  "projectFilePath": "C:\\Users\\dangn\\Downloads\\Demo\\MauThietKe\\ManagerWater\\ManagerWater\\ManagerWater.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\dangn\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\dangn\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
