@@ -45,7 +45,7 @@ namespace ManagerWater
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Times New Roman", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label1.ForeColor = System.Drawing.Color.SteelBlue;
+            this.label1.ForeColor = System.Drawing.Color.Navy;
             this.label1.Location = new System.Drawing.Point(94, 36);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(262, 45);
@@ -56,7 +56,7 @@ namespace ManagerWater
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label2.ForeColor = System.Drawing.Color.SteelBlue;
+            this.label2.ForeColor = System.Drawing.Color.Navy;
             this.label2.Location = new System.Drawing.Point(38, 130);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(108, 20);
@@ -67,7 +67,7 @@ namespace ManagerWater
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label3.ForeColor = System.Drawing.Color.SteelBlue;
+            this.label3.ForeColor = System.Drawing.Color.Navy;
             this.label3.Location = new System.Drawing.Point(63, 207);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(83, 20);
@@ -90,7 +90,7 @@ namespace ManagerWater
             // 
             // btn_login
             // 
-            this.btn_login.BackColor = System.Drawing.Color.SteelBlue;
+            this.btn_login.BackColor = System.Drawing.Color.Navy;
             this.btn_login.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.btn_login.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.btn_login.Location = new System.Drawing.Point(152, 305);
@@ -105,7 +105,7 @@ namespace ManagerWater
             // 
             this.linkRegister.AutoSize = true;
             this.linkRegister.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.linkRegister.LinkColor = System.Drawing.Color.SteelBlue;
+            this.linkRegister.LinkColor = System.Drawing.Color.Navy;
             this.linkRegister.Location = new System.Drawing.Point(290, 277);
             this.linkRegister.Name = "linkRegister";
             this.linkRegister.Size = new System.Drawing.Size(66, 20);
@@ -125,9 +125,9 @@ namespace ManagerWater
             // panel1
             // 
             this.panel1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel1.BackgroundImage")));
-            this.panel1.Location = new System.Drawing.Point(342, 31);
+            this.panel1.Location = new System.Drawing.Point(346, 12);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(50, 50);
+            this.panel1.Size = new System.Drawing.Size(76, 83);
             this.panel1.TabIndex = 8;
             // 
             // Login
@@ -146,7 +146,7 @@ namespace ManagerWater
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Name = "Login";
-            this.Text = "Form1";
+            this.Text = "Login";
             this.Load += new System.EventHandler(this.Login_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

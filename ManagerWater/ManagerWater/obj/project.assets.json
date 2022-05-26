@@ -454,23 +454,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ASUS\\.nuget\\packages\\": {},
+    "C:\\Users\\dangn\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ASUS\\OneDrive\\Documents\\CKMTK\\MauThietKe\\ManagerWater\\ManagerWater\\ManagerWater.csproj",
+      "projectUniqueName": "C:\\Users\\dangn\\Downloads\\Nháp\\MauThietKe\\ManagerWater\\ManagerWater\\ManagerWater.csproj",
       "projectName": "ManagerWater",
-      "projectPath": "C:\\Users\\ASUS\\OneDrive\\Documents\\CKMTK\\MauThietKe\\ManagerWater\\ManagerWater\\ManagerWater.csproj",
-      "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ASUS\\OneDrive\\Documents\\CKMTK\\MauThietKe\\ManagerWater\\ManagerWater\\obj\\",
+      "projectPath": "C:\\Users\\dangn\\Downloads\\Nháp\\MauThietKe\\ManagerWater\\ManagerWater\\ManagerWater.csproj",
+      "packagesPath": "C:\\Users\\dangn\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\dangn\\Downloads\\Nháp\\MauThietKe\\ManagerWater\\ManagerWater\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\dangn\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -512,12 +512,6 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.NETCore.App.Host.win-x64",
-            "version": "[3.1.23, 3.1.23]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
@@ -526,7 +520,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
       }
     }
   }

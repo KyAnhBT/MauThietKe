@@ -8,7 +8,7 @@ namespace ManagerWater
 {
     public class SqlConnect
     {
-        private const string ConnectionString = "Data Source=LAPTOP-9V8839UD"+@"\"+"KYANH;Initial Catalog=ManagerWater;Integrated Security=True";
+        private const string ConnectionString = @"Data Source=MSI\SQL;Initial Catalog=ManagerWater;User ID=sa;Password=123456;Integrated Security=True";
         protected SqlConnection conn = new SqlConnection(ConnectionString);
     }
 }

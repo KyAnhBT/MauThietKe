@@ -78,7 +78,7 @@ namespace ManagerWater
             // 
             // btn_CreateCubicMetre
             // 
-            this.btn_CreateCubicMetre.BackColor = System.Drawing.Color.SteelBlue;
+            this.btn_CreateCubicMetre.BackColor = System.Drawing.Color.Navy;
             this.btn_CreateCubicMetre.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.btn_CreateCubicMetre.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.btn_CreateCubicMetre.Location = new System.Drawing.Point(955, 215);
@@ -91,7 +91,7 @@ namespace ManagerWater
             // 
             // btn_DeleteCubicMetre
             // 
-            this.btn_DeleteCubicMetre.BackColor = System.Drawing.Color.SteelBlue;
+            this.btn_DeleteCubicMetre.BackColor = System.Drawing.Color.Navy;
             this.btn_DeleteCubicMetre.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.btn_DeleteCubicMetre.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.btn_DeleteCubicMetre.Location = new System.Drawing.Point(1155, 215);
@@ -105,7 +105,7 @@ namespace ManagerWater
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.ForeColor = System.Drawing.Color.SteelBlue;
+            this.label1.ForeColor = System.Drawing.Color.Navy;
             this.label1.Location = new System.Drawing.Point(3, 10);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(104, 20);
@@ -115,7 +115,7 @@ namespace ManagerWater
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.ForeColor = System.Drawing.Color.SteelBlue;
+            this.label2.ForeColor = System.Drawing.Color.Navy;
             this.label2.Location = new System.Drawing.Point(16, 43);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(91, 20);
@@ -124,7 +124,7 @@ namespace ManagerWater
             // 
             // btn_save
             // 
-            this.btn_save.BackColor = System.Drawing.Color.SteelBlue;
+            this.btn_save.BackColor = System.Drawing.Color.Navy;
             this.btn_save.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.btn_save.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.btn_save.Location = new System.Drawing.Point(113, 83);
@@ -139,18 +139,18 @@ namespace ManagerWater
             // 
             this.linkLabel1.AutoSize = true;
             this.linkLabel1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.linkLabel1.LinkColor = System.Drawing.Color.SteelBlue;
+            this.linkLabel1.LinkColor = System.Drawing.Color.Navy;
             this.linkLabel1.Location = new System.Drawing.Point(1206, 9);
             this.linkLabel1.Name = "linkLabel1";
-            this.linkLabel1.Size = new System.Drawing.Size(62, 20);
+            this.linkLabel1.Size = new System.Drawing.Size(65, 20);
             this.linkLabel1.TabIndex = 9;
             this.linkLabel1.TabStop = true;
-            this.linkLabel1.Text = "Quản lý";
+            this.linkLabel1.Text = "Quay lại";
             this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
             // 
             // btn_deleteCustomer
             // 
-            this.btn_deleteCustomer.BackColor = System.Drawing.Color.SteelBlue;
+            this.btn_deleteCustomer.BackColor = System.Drawing.Color.Navy;
             this.btn_deleteCustomer.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.btn_deleteCustomer.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.btn_deleteCustomer.Location = new System.Drawing.Point(791, 215);
@@ -165,7 +165,7 @@ namespace ManagerWater
             // 
             this.lb_phone.AutoSize = true;
             this.lb_phone.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lb_phone.ForeColor = System.Drawing.Color.SteelBlue;
+            this.lb_phone.ForeColor = System.Drawing.Color.Navy;
             this.lb_phone.Location = new System.Drawing.Point(113, 10);
             this.lb_phone.Name = "lb_phone";
             this.lb_phone.Size = new System.Drawing.Size(87, 20);
@@ -176,7 +176,7 @@ namespace ManagerWater
             // 
             this.lb_cubicMetreID.AutoSize = true;
             this.lb_cubicMetreID.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lb_cubicMetreID.ForeColor = System.Drawing.Color.SteelBlue;
+            this.lb_cubicMetreID.ForeColor = System.Drawing.Color.Navy;
             this.lb_cubicMetreID.Location = new System.Drawing.Point(113, 43);
             this.lb_cubicMetreID.Name = "lb_cubicMetreID";
             this.lb_cubicMetreID.Size = new System.Drawing.Size(23, 20);
@@ -185,12 +185,14 @@ namespace ManagerWater
             // 
             // panel1
             // 
+            this.panel1.BackColor = System.Drawing.Color.YellowGreen;
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.panel1.Controls.Add(this.label1);
             this.panel1.Controls.Add(this.lb_cubicMetreID);
             this.panel1.Controls.Add(this.lb_phone);
             this.panel1.Controls.Add(this.btn_save);
             this.panel1.Controls.Add(this.label2);
+            this.panel1.ForeColor = System.Drawing.SystemColors.ControlText;
             this.panel1.Location = new System.Drawing.Point(12, 9);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(263, 130);
@@ -199,14 +201,14 @@ namespace ManagerWater
             // panel2
             // 
             this.panel2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel2.BackgroundImage")));
-            this.panel2.Location = new System.Drawing.Point(791, 12);
+            this.panel2.Location = new System.Drawing.Point(811, 12);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(100, 100);
+            this.panel2.Size = new System.Drawing.Size(74, 89);
             this.panel2.TabIndex = 14;
             // 
             // btn_cancel
             // 
-            this.btn_cancel.BackColor = System.Drawing.Color.SteelBlue;
+            this.btn_cancel.BackColor = System.Drawing.Color.Navy;
             this.btn_cancel.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.btn_cancel.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.btn_cancel.Location = new System.Drawing.Point(606, 215);
@@ -221,7 +223,7 @@ namespace ManagerWater
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Times New Roman", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label3.ForeColor = System.Drawing.Color.SteelBlue;
+            this.label3.ForeColor = System.Drawing.Color.Navy;
             this.label3.Location = new System.Drawing.Point(555, 34);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(250, 45);

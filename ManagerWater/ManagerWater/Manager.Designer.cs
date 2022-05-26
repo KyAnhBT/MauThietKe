@@ -60,7 +60,7 @@ namespace ManagerWater
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Times New Roman", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label1.ForeColor = System.Drawing.Color.SteelBlue;
+            this.label1.ForeColor = System.Drawing.Color.Navy;
             this.label1.Location = new System.Drawing.Point(535, 9);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(204, 45);
@@ -99,7 +99,7 @@ namespace ManagerWater
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label2.ForeColor = System.Drawing.Color.SteelBlue;
+            this.label2.ForeColor = System.Drawing.Color.Navy;
             this.label2.Location = new System.Drawing.Point(688, 145);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(126, 20);
@@ -111,7 +111,7 @@ namespace ManagerWater
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label3.ForeColor = System.Drawing.Color.SteelBlue;
+            this.label3.ForeColor = System.Drawing.Color.Navy;
             this.label3.Location = new System.Drawing.Point(145, 149);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(192, 20);
@@ -134,7 +134,7 @@ namespace ManagerWater
             this.đăngKýCấpNướcToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.btnCreateCubicMetre});
             this.đăngKýCấpNướcToolStripMenuItem.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.đăngKýCấpNướcToolStripMenuItem.ForeColor = System.Drawing.Color.SteelBlue;
+            this.đăngKýCấpNướcToolStripMenuItem.ForeColor = System.Drawing.Color.Navy;
             this.đăngKýCấpNướcToolStripMenuItem.Name = "đăngKýCấpNướcToolStripMenuItem";
             this.đăngKýCấpNướcToolStripMenuItem.Size = new System.Drawing.Size(63, 24);
             this.đăngKýCấpNướcToolStripMenuItem.Text = "Menu";
@@ -142,7 +142,7 @@ namespace ManagerWater
             // 
             // btnCreateCubicMetre
             // 
-            this.btnCreateCubicMetre.ForeColor = System.Drawing.Color.SteelBlue;
+            this.btnCreateCubicMetre.ForeColor = System.Drawing.Color.Navy;
             this.btnCreateCubicMetre.Name = "btnCreateCubicMetre";
             this.btnCreateCubicMetre.Size = new System.Drawing.Size(250, 26);
             this.btnCreateCubicMetre.Text = "Đăng ký đồng hồ nước";
@@ -152,7 +152,7 @@ namespace ManagerWater
             // 
             this.linkLabel1.AutoSize = true;
             this.linkLabel1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.linkLabel1.LinkColor = System.Drawing.Color.SteelBlue;
+            this.linkLabel1.LinkColor = System.Drawing.Color.Navy;
             this.linkLabel1.Location = new System.Drawing.Point(1175, 9);
             this.linkLabel1.Name = "linkLabel1";
             this.linkLabel1.Size = new System.Drawing.Size(81, 20);
@@ -163,7 +163,7 @@ namespace ManagerWater
             // 
             // btn_findPhone
             // 
-            this.btn_findPhone.BackColor = System.Drawing.Color.SteelBlue;
+            this.btn_findPhone.BackColor = System.Drawing.Color.Navy;
             this.btn_findPhone.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.btn_findPhone.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.btn_findPhone.Location = new System.Drawing.Point(550, 145);
@@ -176,7 +176,7 @@ namespace ManagerWater
             // 
             // btn_findName
             // 
-            this.btn_findName.BackColor = System.Drawing.Color.SteelBlue;
+            this.btn_findName.BackColor = System.Drawing.Color.Navy;
             this.btn_findName.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.btn_findName.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.btn_findName.Location = new System.Drawing.Point(1027, 140);
@@ -189,7 +189,7 @@ namespace ManagerWater
             // 
             // btn_Pay
             // 
-            this.btn_Pay.BackColor = System.Drawing.Color.SteelBlue;
+            this.btn_Pay.BackColor = System.Drawing.Color.Navy;
             this.btn_Pay.Font = new System.Drawing.Font("Segoe UI", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.btn_Pay.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.btn_Pay.Location = new System.Drawing.Point(1102, 43);
@@ -205,14 +205,14 @@ namespace ManagerWater
             this.panel1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel1.BackgroundImage")));
             this.panel1.Location = new System.Drawing.Point(0, 31);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(100, 100);
+            this.panel1.Size = new System.Drawing.Size(78, 88);
             this.panel1.TabIndex = 11;
             // 
             // label4
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label4.ForeColor = System.Drawing.Color.SteelBlue;
+            this.label4.ForeColor = System.Drawing.Color.Navy;
             this.label4.Location = new System.Drawing.Point(41, 538);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(127, 20);
@@ -247,7 +247,7 @@ namespace ManagerWater
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label5.ForeColor = System.Drawing.Color.SteelBlue;
+            this.label5.ForeColor = System.Drawing.Color.Navy;
             this.label5.Location = new System.Drawing.Point(420, 507);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(143, 20);
@@ -259,7 +259,7 @@ namespace ManagerWater
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label6.ForeColor = System.Drawing.Color.SteelBlue;
+            this.label6.ForeColor = System.Drawing.Color.Navy;
             this.label6.Location = new System.Drawing.Point(612, 507);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(150, 20);
@@ -268,7 +268,7 @@ namespace ManagerWater
             // 
             // button1
             // 
-            this.button1.BackColor = System.Drawing.Color.SteelBlue;
+            this.button1.BackColor = System.Drawing.Color.Navy;
             this.button1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.button1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.button1.Location = new System.Drawing.Point(866, 526);
@@ -290,7 +290,7 @@ namespace ManagerWater
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label7.ForeColor = System.Drawing.Color.SteelBlue;
+            this.label7.ForeColor = System.Drawing.Color.Navy;
             this.label7.Location = new System.Drawing.Point(305, 538);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(42, 20);
