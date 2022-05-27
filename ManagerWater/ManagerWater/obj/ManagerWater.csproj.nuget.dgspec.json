@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\dangn\\Downloads\\Demo\\MauThietKe\\ManagerWater\\ManagerWater\\ManagerWater.csproj": {}
+    "C:\\Users\\USER\\Desktop\\MTK\\Cuoi_ky\\Here\\New folder\\MauThietKe\\ManagerWater\\ManagerWater\\ManagerWater.csproj": {}
   },
   "projects": {
-    "C:\\Users\\dangn\\Downloads\\Demo\\MauThietKe\\ManagerWater\\ManagerWater\\ManagerWater.csproj": {
+    "C:\\Users\\USER\\Desktop\\MTK\\Cuoi_ky\\Here\\New folder\\MauThietKe\\ManagerWater\\ManagerWater\\ManagerWater.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dangn\\Downloads\\Demo\\MauThietKe\\ManagerWater\\ManagerWater\\ManagerWater.csproj",
+        "projectUniqueName": "C:\\Users\\USER\\Desktop\\MTK\\Cuoi_ky\\Here\\New folder\\MauThietKe\\ManagerWater\\ManagerWater\\ManagerWater.csproj",
         "projectName": "ManagerWater",
-        "projectPath": "C:\\Users\\dangn\\Downloads\\Demo\\MauThietKe\\ManagerWater\\ManagerWater\\ManagerWater.csproj",
-        "packagesPath": "C:\\Users\\dangn\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dangn\\Downloads\\Demo\\MauThietKe\\ManagerWater\\ManagerWater\\obj\\",
+        "projectPath": "C:\\Users\\USER\\Desktop\\MTK\\Cuoi_ky\\Here\\New folder\\MauThietKe\\ManagerWater\\ManagerWater\\ManagerWater.csproj",
+        "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\USER\\Desktop\\MTK\\Cuoi_ky\\Here\\New folder\\MauThietKe\\ManagerWater\\ManagerWater\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\dangn\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -67,7 +63,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }
